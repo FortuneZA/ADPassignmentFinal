@@ -1,5 +1,8 @@
 package za.ac.cput.ADPassignmentFinal;
-
+/**
+ * Author: Caven Fernanda - 218074905
+ *Main class: Small domain that stores information
+ */
 public class Vehicle {
 
     private String sedan;
