@@ -1,8 +1,4 @@
 
-
-
-
-
 #Files to be ignored by Git
 /.idea/
 *.iml
