@@ -1,8 +1,10 @@
 package za.ac.cput.ADPassignmentFinal;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
+
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -52,7 +54,8 @@ class AppTest {
 
     //4)Timeout
 
-    @Test(timeout = 1000)
+    @Test
+    @Timeout(10)
     public void timeOut()
     {
         while(person1 == person3);
@@ -60,8 +63,8 @@ class AppTest {
     }
 
     //5 Disabling Test
-//(JUnit 4 uses @Ignore class)
-    @Ignore
+//
+    @Disabled("Review Parameters")
     @Test
     public void failingTest2()
     {
