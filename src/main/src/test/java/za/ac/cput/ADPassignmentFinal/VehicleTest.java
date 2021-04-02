@@ -33,7 +33,7 @@ class VehicleTest {
     void testToFail(){
 
         if(object3 != object2) {
-            fail("test has been failed");
+            fail("test has been failed.");
         }else
         {
             assertEquals(object2,object3);
