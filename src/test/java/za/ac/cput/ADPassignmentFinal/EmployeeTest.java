@@ -37,7 +37,7 @@ class EmployeeTest {
     void testFail(){
         if (employee1.equals(employee2)){
             Assertions.fail("fail test");
-            System.out.println("fail test");
+            System.out.println("fail test.");
         }
     }
 

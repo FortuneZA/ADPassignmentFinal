@@ -5,6 +5,7 @@ package za.ac.cput.ADPassignmentFinal;
  *
  * My first program Employee
  */
+
 public class Employee {
     private String name;
     private String surname;
